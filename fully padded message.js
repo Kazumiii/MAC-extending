@@ -11,7 +11,7 @@ var msgBitsHexString=msgBits.toString(16);
 
 var paddingHexString="8";
 
-var zeros=512-8msgBits-(16-msgBitsHexString.length);
+var zeros=512-8-msgBits-(16-msgBitsHexString.length);
 
 for(var i=0;i<zeros/8;++i)
 {
